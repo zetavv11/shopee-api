@@ -1,0 +1,21 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# data lokal (berisi invoice & transaksi)
+database.json
+database.json.*.tmp
+
+# deps & logs
+node_modules/
+logs/
+*.log
+npm-debug.log*
+
+# vercel
+.vercel
+
+# misc
+.DS_Store
+*.har
